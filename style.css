@@ -1,0 +1,160 @@
+body{
+    background: url(http://moziru.com/images/moves-clipart-simon-says-5.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.spacer{
+    padding: 5%;
+}
+
+.spacer2{
+    padding: 5%;
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.simonBoard{
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;
+    border: solid 5px black;
+    margin: 0 auto;
+    border-radius: 600px;
+}
+
+.pad{
+    margin: 0;
+    float: left;
+    position: relative;
+    width: 295px;
+    height: 295px;
+    border: solid 3px black;
+    z-index: 8;
+    
+}
+
+.green{
+    background-color: green;
+    border-radius: 300px 0 0 0;
+    cursor: pointer;
+}
+
+.green-click{
+    background-color: darkgreen;
+}
+
+.red{
+    background-color: red;
+    border-radius: 0 300px 0 0;
+    cursor: pointer;
+}
+
+.red-click{
+    background-color: darkred;
+}
+
+.yellow{
+    background-color: yellow;
+    border-radius: 0 0 0 300px;
+    cursor: pointer;
+}
+
+.yellow-click{
+    background-color: rgb(112, 112, 9);
+}
+
+.blue{
+    background-color: blue;
+    border-radius: 0 0 300px 0;
+    cursor: pointer;
+}
+
+.blue-click{
+    background-color: darkblue;
+}
+
+.controls{
+    width: 245px;
+    height: 245px;
+    margin-left: 170px;
+    margin-top: 170px;
+    background-color: white;
+    border: solid 10px black;
+    border-radius: 150px;
+    position: absolute;
+    z-index: 10;
+}
+
+.title{
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.inline{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#timer{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+#start{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#strict{
+    background-color: yellow;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.outside-switch{
+    width: 60px;
+    height: 30px;
+    background-color: black;
+    border: solid 1px black;
+}
+
+.inside-switch{
+    width: 30px;
+    height: 28px;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.outside-switch2{
+    width: 60px;
+    height: 30px;
+    background-color: blue;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+.inside-switch2{
+    width: 30px;
+    height: 28px;
+    background-color: black;
+    cursor: pointer;
+}
+
+#restart{
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
